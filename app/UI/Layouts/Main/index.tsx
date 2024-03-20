@@ -8,7 +8,6 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
 		<>
 			<Navbar>
 				<Logo />
-				<UpdateButton />
 			</Navbar>
 			<div className='flex flex-row mb-36'>
 				<Sidebar />
